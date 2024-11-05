@@ -1,0 +1,296 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+
+/* Polices*/
+
+@font-face{
+    font-family: "policeTrash";
+    src: url("../assets/Trash___.ttf");
+}
+
+
+/* Propriétes qui se répètent */
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: red
+}
+
+img{
+    width: 100%;
+    transition: opacity 0.3s ease
+}
+
+img:hover{
+    opacity: 0.7;
+}
+
+
+.flex{
+    display: flex;
+    
+}
+
+/* -----------HEADER---------- */
+
+/* Taille du logo A */
+.tailleLogo{
+    width: 170px;
+}
+
+/* Détails du flex pour le premier ul tout en haut */
+
+.flexPropriete1{
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    height: 100px;
+    color: red;
+    font-family: "policeTrash";
+    font-size: 30px;
+}
+
+.bgImage{
+    /* position: relative; */
+    background-image: url("../assets/Firefly\ 4\ cochons\ d\'inde\ formant\ un\ groupe\ de\ metal\ 44454.jpg");
+    height: 110vh;
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 5%;
+}
+
+.titre1{
+    color: red;
+    font-family: "policeTrash";
+    font-size: 90px;
+    /* background-color: blue; */
+    width: 700px;
+    margin-top: 35%;
+    margin-left: 35%;
+
+}
+
+/* -----------------MAIN----------------- */
+
+
+/* Section 1 */
+
+
+.bgImage2{
+    display: flex;
+    justify-content: flex-end;
+    background-image: url("../assets/Firefly\ 4\ cochons\ d\'inde\ formant\ un\ groupe\ de\ metal\ avec\ du\ sang\ partout\ 28461.jpg");
+    height: 110vh;
+    background-position: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+
+.gradient{
+    background-color: black;
+    height: 110vh;
+    background: linear-gradient(to left, black, transparent);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+
+
+}
+
+.titreh2{
+    color: red;
+    font-family: "policeTrash";
+    font-size: 80px;
+}
+
+.police{
+    color: red;
+    font-family: "policeTrash";
+    font-size: 30px;
+    margin-bottom: 10%;
+}
+
+.flexPropriete2{
+    justify-content: space-around ;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    width: 700px;
+    z-index: 2000;
+    
+}
+
+/* Section2 */
+
+
+.flexPropriete3{
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    /* background-color: blue; */
+}
+
+.flexPropriete4{
+    justify-content: space-between;
+    
+}
+
+span{
+    color: red;
+    font-family: "policeTrash";
+    font-size: 100px;
+    margin-left: 30%;
+    margin-right: 90px;
+
+}
+
+.tailleLogo2{
+
+    width: 100px;
+    /* background-color: orange; */
+}
+
+.titreh2Bis{
+    color: red;
+    font-family: "policeTrash";
+    font-size: 70px;
+}
+
+/* Section 3 */
+
+.flexPropriete5{
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.positionB{
+    position: absolute;
+    top: 65%;
+    right: 47%;
+    font-size: 150px;
+    color: red;
+    /* background-color: green; */
+    font-family: "policeTrash";
+}
+
+.tailleImage{
+    width: 800px;
+}
+
+.paco{
+    position: absolute;
+    left: 10%;
+    transform: rotate(-20deg);
+}
+
+.rocco{
+    position: absolute;
+    right: 10%;
+    transform: rotate(20deg);
+}
+
+
+
+/* Section 4 */
+
+
+.flexPropriete6{
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    /* background-color: green; */
+    margin-left: 5%;
+}
+
+.tailleLogo3{
+    width: 90%;
+    
+}
+
+.police2{
+    color: red;
+    font-family: "policeTrash";
+    font-size: 150px;
+}
+
+.decalage{
+    margin-right: 8%;
+}
+
+.decalage2{
+    margin-left: 1%;
+}
+
+.falco{
+    position: absolute;
+    left: 10%;
+    transform: rotate(-20deg);
+}
+
+.rico{
+    position: absolute;
+    right: 10%;
+    transform: rotate(20deg);
+}
+
+/* Section 5 */
+
+.flexPropriete7{
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin-bottom: 2%;
+}
+
+.positionN{
+    position: absolute;
+    top: 10%;
+    left: 47%;
+}
+
+.positionD{
+    position: absolute;
+    top: 45%;
+    left: 47%;
+}
+
+/* -------------FOOTER------------ */
+
+.police3{
+    color: red;
+    font-family: "policeTrash";
+    margin-bottom: 5%;
+    font-size: 30px;
+}
+
+.flexPropriete8{
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.margin1{
+    margin-left: 5%;
+}
+
+.margin2{
+    margin-right: 5%;
+}
